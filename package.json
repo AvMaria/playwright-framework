@@ -1,0 +1,22 @@
+{
+  "name": "deloitteframework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:test": "TARGET_ENV=test npx playwright test",
+    "test:stage": "TARGET_ENV=stage npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
