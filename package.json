@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "test": "npx playwright test",
-    "test:test": "TARGET_ENV=test npx playwright test",
-    "test:stage": "TARGET_ENV=stage npx playwright test"
+    "test:test": "TARGET_ENV=test npx playwright test",    
+    "test:stage": "TARGET_ENV=stage npx playwright test",
+    "test:debug": "npx playwright test --debug"
   },
   "keywords": [],
   "author": "",
